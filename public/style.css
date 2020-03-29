@@ -233,7 +233,7 @@ footer a:hover{
     align-items: center; /*Altera eixo Y*/
     justify-content: center; /*Alteira eixo X*/
     
-    transition: 300ms;
+    transition: 150ms;
 } 
 
 #modal .content{
@@ -307,7 +307,7 @@ form a{
 
     align-self: end;
 
-    transition: 00ms;
+    transition: 100ms;
 }
 
 form a:hover{
@@ -334,7 +334,7 @@ form button {
 
     font-weight: bold;
 
-    transition: 250ms;
+    transition: 150ms;
 }
 
 form button:hover {
