@@ -15,6 +15,28 @@ function onOff(){
             .toggle("addScroll")
 }
 
-// document
-//     .querySelector("button.fat")
-//     .addEventListener("click", onOff)
+function checkFields(event) {
+    const valuesToCheck = [
+        "title",
+        "category",
+        "image",
+        "description",
+        "link"
+    ]
+
+
+    const isEmpty = valuesToCheck.find((value) => {
+        const checkIfIsString = typeof event.target[value].value === "string"
+        const checkIfIsEmpty = !event.target[value].value.trim()
+
+        if (checkIfIsString && checkIfIsEmpty ) {
+            return true
+        }
+    })
+
+    if (isEmpty) {
+        event.preventDefault()
+
+        alert('Preencha todos os campos antes de salvar')
+    }
+}
