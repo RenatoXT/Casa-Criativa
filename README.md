@@ -23,4 +23,4 @@ npm start
 
 To initialize the **Frontend** uses open a "localhost:3000" page on the browser.
 
-<img align="left" height='600' src="https://github.com/RenatoXT/Casa-Criativa/blob/master/public/WebPage.gif">
+<img align="left" height='400' src="https://github.com/RenatoXT/Casa-Criativa/blob/master/public/WebPage.gif">
